@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Gigs & Gains Guild",
+    "subtitle": "Built with Zara",
+    "description": "Gigs & Gains Guild is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://2eb3b7ebcbad497e9500fcf050edc34a-drfg.vercel.app",
+    "splashImageUrl": "https://2eb3b7ebcbad497e9500fcf050edc34a-drfg.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://2eb3b7ebcbad497e9500fcf050edc34a-drfg.vercel.app/image.png",
+    "tagline": "Gigs & Gains Guild",
+    "screenshotUrls": [
+      "https://2eb3b7ebcbad497e9500fcf050edc34a-drfg.vercel.app/screenshot.png",
+      "https://2eb3b7ebcbad497e9500fcf050edc34a-drfg.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://2eb3b7ebcbad497e9500fcf050edc34a-drfg.vercel.app/api/webhook"
+  }
+}

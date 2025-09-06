@@ -1,0 +1,14 @@
+{
+  "name": "Gigs & Gains Guild",
+  "description": "Gigs & Gains Guild is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://2eb3b7eb-cbad-497e-9500-fcf050edc34a.vercel.app",
+  "properties": {
+    "app": {
+      "name": "Gigs & Gains Guild",
+      "description": "Gigs & Gains Guild is a Base Mini App built with Zara.",
+      "url": "https://2eb3b7eb-cbad-497e-9500-fcf050edc34a.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
