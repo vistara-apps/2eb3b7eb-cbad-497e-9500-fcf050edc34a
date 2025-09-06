@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: 220 15% 95%;
+    --accent: 120 70% 45%;
+    --border: 220 15% 85%;
+    --primary: 240 80% 50%;
+    --surface: 0 0% 100%;
+    --text-primary: 220 15% 20%;
+    --text-secondary: 220 15% 40%;
+  }
+
+  * {
+    @apply border-gray-200;
+  }
+  
+  body {
+    @apply bg-gradient-to-br from-purple-400 via-blue-500 to-cyan-400 min-h-screen text-white;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white bg-opacity-10 backdrop-blur-lg border border-white border-opacity-20 rounded-lg shadow-card;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent;
+  }
+
+  .floating-element {
+    @apply animate-float;
+  }
+
+  .btn-primary {
+    @apply bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-lg font-medium hover:from-purple-600 hover:to-pink-600 transition-all duration-200 shadow-lg hover:shadow-xl;
+  }
+
+  .btn-secondary {
+    @apply bg-white bg-opacity-20 text-white px-6 py-3 rounded-lg font-medium hover:bg-opacity-30 transition-all duration-200 backdrop-blur-sm border border-white border-opacity-30;
+  }
+
+  .metric-card {
+    @apply glass-card p-6 hover:bg-opacity-15 transition-all duration-200;
+  }
+
+  .skill-tag {
+    @apply bg-gradient-to-r from-orange-400 to-pink-400 text-white px-3 py-1 rounded-full text-sm font-medium;
+  }
+
+  .skill-tag-premium {
+    @apply bg-gradient-to-r from-yellow-400 to-orange-400 text-white px-3 py-1 rounded-full text-sm font-medium;
+  }
+
+  .verification-badge {
+    @apply bg-green-500 text-white px-2 py-1 rounded-full text-xs font-medium flex items-center gap-1;
+  }
+}
