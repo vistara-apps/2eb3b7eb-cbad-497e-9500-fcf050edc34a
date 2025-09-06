@@ -57,7 +57,7 @@ export async function generatePersonalizedRecommendations(userSkills: string[], 
       'Virtual Assistant - Provide administrative support remotely',
       'Content Writing - Create articles and blog posts for businesses',
       'Social Media Management - Manage social media accounts for brands',
-      'Online Tutoring - Teach subjects you're knowledgeable about',
+      'Online Tutoring - Teach subjects you are knowledgeable about',
       'Freelance Design - Create graphics and visual content'
     ];
   }
